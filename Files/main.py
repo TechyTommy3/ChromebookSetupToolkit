@@ -1,11 +1,14 @@
 #Get the user directory
 from pathlib import Path
 home = str(Path.home())
+#Import the browser module
+import webbrowser as browser
 #Make directory
 #Chromebook Switching Kit
 print("Chromebook Switching Kit")
-#Ask for a network drive
-print("Set up a network drive (on your computer or on another computer) and press enter")
+#Ask for Google Drive and open it's website
+browser.open("https://support.google.com/drive/answer/7329379")
+print("Install Google Drive for Desktop and press enter")
 #There's no press any key to continue in Python, so let's use input()
 input("")
 #I will stop commenting about these commands, but whenever I use print(), print("This is the text that would be shown on the screen.")
@@ -15,12 +18,8 @@ print("Now, plug in your Chromebook.")
 input()
 print("Now turn it on.")
 input()
-print("You can setup a network drive in the newly created folder in your Documents, or use another network drive. Please type N for the folder in your Documents, or A for another network drive.")
+print("Now set it up!")
+input()
 #Ask for an option and put it into a variable.
-networkdrive = input("Make your choice now: ")
+networkdrive = input("Please type what drive you have Google Drive for Desktop configrued on.")
 print("OK!")
-if networkdrive == "A":
-    networkdrivepath = input("Where is that drive located?: ")
-else:
-    print(home + "\\Documents\\NetworkDrive")
-print("")
