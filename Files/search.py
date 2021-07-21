@@ -5,7 +5,7 @@ print("Press Ctrl+C to quit at any time")
 searchd = {"single device": "Lenovo Chromebook Duet", "everyday use": "Google Pixelbook Go",
 "on a budget": "Lenovo Chromebook Duet", "tablet mode coding": "Google Pixelbook",
   "virtual machines on a chromebook": "Google Pixelbook Go", "all day travel": "Google Pixelbook Go",
-    }
+"expensive": "Samsung Chromebook Galaxy", "playing on stadia": "Google Pixelbook Go"    }
 while 0 == 0:
     print("To print out all possible search terms, run this through IDLE, press Ctrl+C, and type in searchd.")
     searchterm = input("Enter a task to find the best Chromebook for it.")
