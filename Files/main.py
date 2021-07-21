@@ -1,5 +1,7 @@
 #Get the user directory
 from pathlib import Path
+#Import some libraries that allow us to copy in Python
+import shutil, os
 home = str(Path.home())
 #Import the browser module
 import webbrowser as browser
@@ -28,5 +30,7 @@ print("Now, if you don't use Chrome, please switch to Chrome using the same acco
 networkdrive = input("Please type what drive you have Google Drive for Desktop configrued on.")
 print("OK!")
 print("Now in copying mode.")
-print("Copying mode copies files, but saves space by not transferring files that Chromebooks can't use.")
-files = input("Please type a folder to copy to Google Drive.")
+print("Copying mode copies files, but saves space by not transferring files that Chromebooks can't use. (Not working right now)")
+while 0 == 0:
+    files = input("Please type a folder to copy to Google Drive.")
+    shutil.copytree(files, networkdrive + ':\\SetupToolkit')
