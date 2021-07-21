@@ -27,4 +27,5 @@ print("Welcome to Chromebook!")
 networkdrive = input("Please type what drive you have Google Drive for Desktop configrued on.")
 print("OK!")
 print("Now in copying mode.")
+print("Copying mode copies files, but saves space by not transferring files that Chromebooks can't use.")
 
