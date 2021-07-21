@@ -26,4 +26,5 @@ print("Welcome to Chromebook!")
 #Ask for an option and put it into a variable.
 networkdrive = input("Please type what drive you have Google Drive for Desktop configrued on.")
 print("OK!")
+print("Now in copying mode.")
 
