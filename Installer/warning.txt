@@ -1,1 +1,0 @@
-WARNING: Chromebook Switching Kit uses Python. If you don't have it installed, quit Setup and install Python.
