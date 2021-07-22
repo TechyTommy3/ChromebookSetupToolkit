@@ -10,4 +10,4 @@ Found a new Chromebook to add to the Chromebook finder? Know how to use Python? 
 # Need to find a Chromebook alterntive for a Windows program?
 Just run alterntive.py!
 # And more!
-To download Chromebook Setup Toolkit, install Python, download the GitHub repostory, and run main.py or search.py!
+To download Chromebook Setup Toolkit, install Python, download the GitHub repostory, and run main.py or search.py through IDLE!
